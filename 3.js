@@ -1,8 +1,6 @@
-//You'll have already used (hopefully!) function.prototype.bind() today. Could you 
-    //(1) tell me the difference between .bind() and .call()
-    //(2) tell me the difference between .call() and .apply()
-//You can talk this through with me or write it down, feel free to use code examples if it helps...
-//If you take it home, please give examples of real life use cases. 
+//Below are Explanations of bind, call and apply method with syntax and examples. 
+    //(1) The differences between .bind() and .call() are explained
+    //(2) The differences between .call() and .apply()
 
 The bind() method is primarily used to call a function with the this value set explicitly. 
 It other words, bind () allows us to easily set which specific object will be bound to this when a function or method is invoked.
@@ -67,7 +65,7 @@ This method can be used if we dont know number of arguments.
 			
 
 
-(1) .bind() and .call()
+(1) Difference between .bind() and .call()
 	.bind(): The bind() method returns a new function which can be executed at your convenience. 
 
 	.call(): The call() calls the function.
