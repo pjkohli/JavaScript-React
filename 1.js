@@ -35,12 +35,16 @@ class App extends React.Component {
       this.deleteRow = this.deleteRow.bind(this);
    };
 
-//deleteRow method uses index as an argument
-// How to pass that index while calling the method still needs to be fixed
-   deleteRow(index) {
-      var myArray = this.state.data;
-      myArray.splice(index,1);
-      this.setState({data: myArray})
+//deleteRow still needs to be implemented.
+// One case could be whether to pass an argument in delete function.
+//Or array can be deleted using splice method. But splice method uses index which needs to be fixed
+   deleteRow() {
+      // Changes can be made made in array 
+		//var myArray = this.state.data;
+      //var index;
+      //myArray.splice(index,1);
+      //The changed array can be stored back
+		//this.setState({data: myArray})
    };
 
 
