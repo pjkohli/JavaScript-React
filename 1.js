@@ -2,6 +2,8 @@
 
 //const workers = [{ name: 'joe', age: 24 }, { name: 'simon', age: 27 }, { name: 'damien', age: 52 }, { name: 'euan', age: 23 }];
 
+// The program below is attemoted to diplay list and button. Delete button functionality is not fully implemented.
+
 import React from 'react';
 
 class App extends React.Component {
@@ -33,6 +35,7 @@ class App extends React.Component {
       this.deleteRow = this.deleteRow.bind(this);
    };
 
+//delete button functionality is yet to be developed
    deleteRow() {
       
    };
