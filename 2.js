@@ -1,6 +1,6 @@
 //I suck. Please fix my person class so that it greets me. 
 
-class Person () {
+class Person{
     constructor (first, second){
         super(first, second)
         this.name = {first, second}
