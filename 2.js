@@ -2,8 +2,8 @@
 
 class Person{
     constructor (first, second){
-        super(first, second)
-        this.name = {first, second}
+        super(first, second);
+        this.name = {first, second};
     }
 
     sayName(){
