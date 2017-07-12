@@ -1,4 +1,4 @@
-//I suck. Please fix my person class so that it greets me. 
+//This is fixed code for my person class. 
 
 class Person{
     constructor (first, second){
