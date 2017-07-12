@@ -1,6 +1,9 @@
 
 
-//FizzBuzz problem: Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”."
+//FizzBuzz problem: This program prints the numbers from 1 to 100. 
+//But for multiples of three it prints “Fizz” instead of the number and for the multiples of five it prints “Buzz”. 
+//For numbers which are multiples of both three and five “FizzBuzz” is printed.
+// This number can be changed and used to display any range(not always 100) by passing an argument to the funtion.
 function FizzBuzz(){
 	for (var i=1; i <= 100; i++)
 	{
