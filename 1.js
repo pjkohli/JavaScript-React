@@ -35,9 +35,12 @@ class App extends React.Component {
       this.deleteRow = this.deleteRow.bind(this);
    };
 
-//delete button functionality is yet to be developed
-   deleteRow() {
-      
+//deleteRow method uses index as an argument
+// How to pass that index while calling the method still needs to be fixed
+   deleteRow(index) {
+      var myArray = this.state.data;
+      myArray.splice(index,1);
+      this.setState({data: myArray})
    };
 
 
